@@ -1,0 +1,20 @@
+body{
+    display:flex;
+    align-items: center;
+}
+.guessContainer{
+    background-color: rgb(34, 30, 59);
+    line-height: 0;
+    margin: 25px;
+    border-radius:0;
+}
+div{
+    background-color: darkslategray;
+    color:linen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: inline-block;
+    padding: 12.5px 25px;
+    margin:0 auto;
+    border-radius:10px;
+}

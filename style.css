@@ -18,3 +18,11 @@ div{
     margin:0 auto;
     border-radius:10px;
 }
+button{
+    display:block;
+    color:#002100;
+    background-color:lightslategray;
+    margin:5px auto 0;
+    border-radius: 5px;
+    border:1px solid #002100;
+}

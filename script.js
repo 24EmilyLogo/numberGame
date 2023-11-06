@@ -9,7 +9,10 @@ function guessCheck(){
     let userGuess = parseInt(numInput.value)
 
     //checks the 
-    if (userGuess > ranNum){
+    if(userGuess < 1||userGuess > 10){
+        correctOrNot.innerText = "Please input a valid number"
+        correctOrNot.style.color = ("#ff3d3d")
+    }else if(userGuess > ranNum){
         correctOrNot.innerText = "Wrong number! Try a smaller number."
         correctOrNot.style.color = ("#ff3d3d")
     } else if(userGuess < ranNum){
@@ -19,7 +22,7 @@ function guessCheck(){
         correctOrNot.innerText = "You got it!";
         correctOrNot.style.color = ("#57d457")
     } else{
-        correctOrNot.innerText = "Please input a valid number"
+        correctOrNot.innerText = "Please input a number"
         correctOrNot.style.color = ("#ff3d3d")
     }
 }
